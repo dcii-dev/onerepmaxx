@@ -1,0 +1,46 @@
+[
+  {
+    "question": "What is a one-rep max?",
+    "answer": "<p>A one-rep max (1RM) is the maximum amount of weight you can lift for exactly one complete repetition of an exercise with proper form. It represents your peak strength output for a given movement and is used as the reference point for building percentage-based training programs.</p><p>Your 1RM is specific to each exercise. Your squat 1RM, deadlift 1RM, and bench press 1RM are three different numbers and should be tracked and programmed separately. Knowing your 1RM for your primary compound lifts gives you the precision needed to apply proven strength training systems effectively.</p>"
+  },
+  {
+    "question": "Which formula is the most accurate?",
+    "answer": "<p>The <strong>Brzycki formula</strong> is generally considered the most accurate for rep ranges between 1 and 10. Research has consistently shown it produces tighter predictions compared to Epley and Lombardi within that window. However, its accuracy degrades noticeably above 10 reps because it uses a linear model that was not designed for high-rep sets.</p><p>The <strong>Epley formula</strong> is the most widely cited in peer-reviewed literature and performs reliably across a broader rep range. The <strong>Lombardi formula</strong> uses a power function model and tends to produce slightly more conservative estimates at moderate rep ranges (4 to 8 reps). Using the average of all three, as this calculator does, reduces the bias of any single formula and gives you a more stable working number for programming purposes.</p>"
+  },
+  {
+    "question": "Is it safe to test my actual 1RM?",
+    "answer": "<p>Testing a true 1RM, where you load the bar to absolute maximum and attempt a single all-out rep, carries meaningful injury risk. At maximal loads, technique breakdowns are more likely, joint stress is at its highest, and fatigue from the warm-up sets introduces variability in performance. True 1RM testing is best reserved for experienced, technically proficient lifters who are competing or completing a formal testing week at the end of a structured training cycle.</p><p>For most recreational and intermediate lifters, using a 3 to 5 rep submaximal set and plugging the numbers into a 1RM calculator is the safer, more practical approach. You get a reliable estimate without the injury exposure of a true maximal attempt.</p>"
+  },
+  {
+    "question": "What rep range gives the most accurate estimate?",
+    "answer": "<p>Sets of 3 to 5 reps produce the most accurate 1RM estimates. At this rep range, the set is close enough to your maximum that the formulas can interpolate accurately, but fatigue has not yet accumulated enough to meaningfully degrade your performance. The technical quality of your reps is also more likely to hold at 3 to 5 reps than at 8 or 10.</p><p>Sets of 6 to 10 reps are still useful but introduce more fatigue-related variance, which can cause the formulas to either underestimate or overestimate depending on how well you tolerate metabolic stress. Sets above 10 reps should be treated as rough estimates only, particularly for the Brzycki formula.</p>"
+  },
+  {
+    "question": "How do I use 1RM percentages to program my training?",
+    "answer": "<p>Once you have an estimated 1RM, multiply it by the desired percentage to find your working weight for a given rep range. For example, if your estimated squat 1RM is 300 lbs, a 5-rep set at 85% would use 255 lbs (300 x 0.85). This is the core mechanic of percentage-based programming systems like 5/3/1, Texas Method, and linear periodization.</p><p>As a general guide: intensities above 85% build maximal strength and neural efficiency. The 75% to 85% range is the primary zone for combined strength and hypertrophy development. Intensities between 65% and 75% shift toward muscular endurance. Most effective strength programs cycle through these zones across training weeks or months using periodization to avoid adaptation plateaus.</p>"
+  },
+  {
+    "question": "How often should I recalculate my 1RM?",
+    "answer": "<p>Recalculate every 4 to 6 weeks during an active strength cycle. As your strength increases, the percentages derived from an outdated 1RM will no longer apply the correct stimulus, and progress will stall. Many coaches program a weekly performance set (3 to 5 reps with the heaviest manageable weight) specifically to give athletes a running 1RM estimate without formal testing.</p><p>If you are a beginner adding weight to the bar consistently week over week, recalculate more frequently, perhaps every 2 to 3 weeks. During a deload or maintenance phase, recalculate at the start of the next training block.</p>"
+  },
+  {
+    "question": "What is RPE and how does it relate to my 1RM?",
+    "answer": "<p>RPE stands for Rate of Perceived Exertion. In strength training, it is used on a 1 to 10 scale where RPE 10 means you could not have completed another rep, and RPE 8 means you had approximately 2 reps left in reserve. RPE-based programming gives coaches a way to prescribe load without requiring a formal 1RM test on every training day.</p><p>The two systems are closely linked. An RPE 9 at 3 reps corresponds approximately to 93% to 95% of your 1RM for most trained lifters. Autoregulation tables (like those published by Mike Tuchscherer of Reactive Training Systems) map RPE values to estimated 1RM percentages, so you can use daily RPE readings to infer your working maximum and adjust load accordingly. Many modern programs use both: a tested 1RM as the anchor point, with RPE to manage day-to-day variance in performance.</p>"
+  },
+  {
+    "question": "Should I use the same 1RM for all lifts?",
+    "answer": "<p>No. Your 1RM is specific to each exercise and should be tracked separately for each. Your squat, deadlift, bench press, overhead press, and any other primary movements all have independent strength ceilings shaped by the specific muscles, leverage positions, and motor patterns involved.</p><p>A common starting point for new lifters is to test the four major barbell lifts: squat, deadlift, bench press, and overhead press. From those four numbers, you build percentage-based targets for each movement independently. Applying your deadlift 1RM percentages to your overhead press, for example, would produce working weights that are far too heavy and risk injury.</p>"
+  },
+  {
+    "question": "How does the warm-up ramp work?",
+    "answer": "<p>The warm-up ramp tab generates a six-step loading sequence based on your estimated 1RM. It starts with the empty bar for 10 reps and steps through approximately 40%, 55%, 70%, 80%, and 90% of your 1RM at progressively lower rep counts (8, 5, 3, 2, and 1). The goal is to prime the nervous system and rehearse the movement under increasing load without accumulating fatigue that would compromise your working sets.</p><p>Weights are rounded to the nearest 5 lbs or kg to match practical plate combinations. These percentages are guidelines, not fixed rules. Add or remove a set based on how the bar is moving as you approach your working weight. Most lifters will need the full ramp on their heaviest lift of the day and fewer steps on accessory movements.</p>"
+  },
+  {
+    "question": "How should I select competition attempts?",
+    "answer": "<p>The competition tab generates three attempt targets using standard powerlifting coaching guidelines: opener at 90% of your estimated 1RM, second attempt at 97%, and third attempt at 103%. Weights are rounded to the nearest 2.5 lbs or kg to match standard meet loading increments.</p><p>The opener should be a near-certain make that you have hit multiple times in training. A failed opener forces you to repeat the weight on your second attempt and leaves only one attempt for a meaningful total. If you are competing for the first time, opening even more conservatively at 88% to 90% of your best recent training lift, not your projected max, is the standard coaching advice. A clean three-for-three at controlled weights is a better result than a high-risk third attempt that does not go up.</p>"
+  },
+  {
+    "question": "What does the reverse calculator do?",
+    "answer": "<p>The reverse calculator flips the standard calculation. Instead of entering the weight you lifted to estimate your 1RM, you enter a target 1RM and a rep count to find the working weight you should use for that set. Switch to this mode using the toggle above the form.</p><p>This is most useful at the start of a training block when you have a known or estimated 1RM and need to calculate exact training loads before your first session. For example, if your squat 1RM is 300 lbs and your program calls for sets of 5 at 80%, entering 300 as the target and 5 as the rep count returns a working weight of approximately 240 lbs. All three formula models back-calculate independently, and the consensus average is your primary working reference.</p>"
+  }
+]
