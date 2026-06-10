@@ -35,6 +35,15 @@
       }
     })();
   </script>
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-EZ5F6T055V"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-EZ5F6T055V');
+  </script>
 </head>
 
 <body>
@@ -48,29 +57,29 @@
       <a href="/" class="site-header__logo" aria-label="OneRepMaxx home">
         <svg class="site-header__logo-icon" width="32" height="32" viewBox="0 0 32 32" aria-hidden="true">
           <!-- Red circle background -->
-          <circle cx="16" cy="16" r="15.5" fill="#dc2626"/>
+          <circle cx="16" cy="16" r="15.5" fill="#dc2626" />
           <!-- Left plate -->
-          <rect x="3" y="10" width="4" height="12" rx="1.5" fill="white"/>
+          <rect x="3" y="10" width="4" height="12" rx="1.5" fill="white" />
           <!-- Left bar segment -->
-          <rect x="7" y="14" width="3" height="4" fill="white"/>
+          <rect x="7" y="14" width="3" height="4" fill="white" />
           <!-- Right plate -->
-          <rect x="25" y="10" width="4" height="12" rx="1.5" fill="white"/>
+          <rect x="25" y="10" width="4" height="12" rx="1.5" fill="white" />
           <!-- Right bar segment -->
-          <rect x="22" y="14" width="3" height="4" fill="white"/>
+          <rect x="22" y="14" width="3" height="4" fill="white" />
           <!-- Calculator body -->
-          <rect x="10" y="6" width="12" height="20" rx="2" fill="white"/>
+          <rect x="10" y="6" width="12" height="20" rx="2" fill="white" />
           <!-- Screen -->
-          <rect x="11.5" y="8" width="9" height="3.5" rx="0.5" fill="#dc2626"/>
+          <rect x="11.5" y="8" width="9" height="3.5" rx="0.5" fill="#dc2626" />
           <!-- Button row 1 -->
-          <rect x="11.5" y="13.5" width="2.5" height="1.75" rx="0.25" fill="#dc2626"/>
-          <rect x="14.75" y="13.5" width="2.5" height="1.75" rx="0.25" fill="#dc2626"/>
-          <rect x="18" y="13.5" width="2.5" height="1.75" rx="0.25" fill="#dc2626"/>
+          <rect x="11.5" y="13.5" width="2.5" height="1.75" rx="0.25" fill="#dc2626" />
+          <rect x="14.75" y="13.5" width="2.5" height="1.75" rx="0.25" fill="#dc2626" />
+          <rect x="18" y="13.5" width="2.5" height="1.75" rx="0.25" fill="#dc2626" />
           <!-- Button row 2 -->
-          <rect x="11.5" y="17" width="2.5" height="1.75" rx="0.25" fill="#dc2626"/>
-          <rect x="14.75" y="17" width="2.5" height="1.75" rx="0.25" fill="#dc2626"/>
-          <rect x="18" y="17" width="2.5" height="1.75" rx="0.25" fill="#dc2626"/>
+          <rect x="11.5" y="17" width="2.5" height="1.75" rx="0.25" fill="#dc2626" />
+          <rect x="14.75" y="17" width="2.5" height="1.75" rx="0.25" fill="#dc2626" />
+          <rect x="18" y="17" width="2.5" height="1.75" rx="0.25" fill="#dc2626" />
           <!-- Enter key -->
-          <rect x="11.5" y="20.5" width="9" height="3" rx="0.5" fill="#dc2626"/>
+          <rect x="11.5" y="20.5" width="9" height="3" rx="0.5" fill="#dc2626" />
         </svg>
         <span class="site-header__logo-text">OneRepMaxx</span>
       </a>
@@ -107,16 +116,15 @@
 
         <!-- LIFT TABS -->
         <div class="lift-tabs" role="group" aria-label="Select lift">
-          <button type="button" class="lift-tab lift-tab--active" aria-pressed="true"
-            data-lift="Squat" id="tab-squat">Squat</button>
-          <button type="button" class="lift-tab" aria-pressed="false"
-            data-lift="Bench Press" id="tab-bench">Bench Press</button>
-          <button type="button" class="lift-tab" aria-pressed="false"
-            data-lift="Deadlift" id="tab-deadlift">Deadlift</button>
-          <button type="button" class="lift-tab" aria-pressed="false"
-            data-lift="Overhead Press" id="tab-ohp">Overhead Press</button>
-          <button type="button" class="lift-tab" aria-pressed="false"
-            data-lift="Custom" id="tab-custom">Custom</button>
+          <button type="button" class="lift-tab lift-tab--active" aria-pressed="true" data-lift="Squat"
+            id="tab-squat">Squat</button>
+          <button type="button" class="lift-tab" aria-pressed="false" data-lift="Bench Press" id="tab-bench">Bench
+            Press</button>
+          <button type="button" class="lift-tab" aria-pressed="false" data-lift="Deadlift"
+            id="tab-deadlift">Deadlift</button>
+          <button type="button" class="lift-tab" aria-pressed="false" data-lift="Overhead Press" id="tab-ohp">Overhead
+            Press</button>
+          <button type="button" class="lift-tab" aria-pressed="false" data-lift="Custom" id="tab-custom">Custom</button>
         </div>
 
         <!-- TOOL FORM -->
@@ -126,8 +134,8 @@
           <div class="calc-mode-toggle" role="group" aria-label="Calculation mode">
             <button type="button" class="calc-mode-toggle__btn calc-mode-toggle__btn--active" id="mode-forward"
               aria-pressed="true">Estimate 1RM</button>
-            <button type="button" class="calc-mode-toggle__btn" id="mode-reverse"
-              aria-pressed="false">Find Working Weight</button>
+            <button type="button" class="calc-mode-toggle__btn" id="mode-reverse" aria-pressed="false">Find Working
+              Weight</button>
           </div>
 
           <!-- SECTION: LIFT DATA -->
@@ -150,20 +158,11 @@
 
               <!-- Weight Lifted -->
               <div class="form-group">
-                <label class="form-group__label form-group__label--required" for="weight" id="weight-label">Weight Lifted</label>
+                <label class="form-group__label form-group__label--required" for="weight" id="weight-label">Weight
+                  Lifted</label>
                 <div class="form-group__input-wrap">
-                  <input
-                    class="form-group__input"
-                    type="number"
-                    id="weight"
-                    value=""
-                    min="1"
-                    max="2000"
-                    step="1"
-                    placeholder="e.g. 225"
-                    aria-required="true"
-                  aria-describedby="weight-hint weight-suffix"
-                  >
+                  <input class="form-group__input" type="number" id="weight" value="" min="1" max="2000" step="1"
+                    placeholder="e.g. 225" aria-required="true" aria-describedby="weight-hint weight-suffix">
                   <span class="form-group__suffix" id="weight-suffix">lbs</span>
                 </div>
                 <span class="form-group__hint" id="weight-hint">The weight on the bar for your working set.</span>
@@ -173,18 +172,8 @@
               <div class="form-group">
                 <label class="form-group__label form-group__label--required" for="reps">Reps Completed</label>
                 <div class="form-group__input-wrap">
-                  <input
-                    class="form-group__input"
-                    type="number"
-                    id="reps"
-                    value=""
-                    min="1"
-                    max="20"
-                    step="1"
-                    placeholder="e.g. 5"
-                    aria-required="true"
-                    aria-describedby="reps-hint"
-                  >
+                  <input class="form-group__input" type="number" id="reps" value="" min="1" max="20" step="1"
+                    placeholder="e.g. 5" aria-required="true" aria-describedby="reps-hint">
                   <span class="form-group__suffix">reps</span>
                 </div>
                 <span class="form-group__hint" id="reps-hint">Best accuracy between 2 and 10 reps.</span>
@@ -196,20 +185,12 @@
                   Bodyweight <span class="form-group__optional">(optional)</span>
                 </label>
                 <div class="form-group__input-wrap">
-                  <input
-                    class="form-group__input"
-                    type="number"
-                    id="bodyweight"
-                    value=""
-                    min="30"
-                    max="400"
-                    step="0.5"
-                    placeholder="e.g. 185"
-                    aria-describedby="bodyweight-hint"
-                  >
+                  <input class="form-group__input" type="number" id="bodyweight" value="" min="30" max="400" step="0.5"
+                    placeholder="e.g. 185" aria-describedby="bodyweight-hint">
                   <span class="form-group__suffix" id="bodyweight-suffix">lbs</span>
                 </div>
-                <span class="form-group__hint" id="bodyweight-hint">Shows your bodyweight multiplier and strength standard.</span>
+                <span class="form-group__hint" id="bodyweight-hint">Shows your bodyweight multiplier and strength
+                  standard.</span>
               </div>
 
             </div>
@@ -301,17 +282,18 @@
             <div class="results-tabs__nav" role="tablist" aria-label="Results view">
               <button type="button" class="results-tab results-tab--active" role="tab" aria-selected="true"
                 data-target="training-table" id="rtab-zones">Training Zones</button>
-              <button type="button" class="results-tab" role="tab" aria-selected="false"
-                data-target="program-presets" id="rtab-programs">Program Presets</button>
-              <button type="button" class="results-tab" role="tab" aria-selected="false"
-                data-target="warmup-table" id="rtab-warmup">Warm-up Ramp</button>
-              <button type="button" class="results-tab" role="tab" aria-selected="false"
-                data-target="comp-attempts" id="rtab-comp">Competition</button>
+              <button type="button" class="results-tab" role="tab" aria-selected="false" data-target="program-presets"
+                id="rtab-programs">Program Presets</button>
+              <button type="button" class="results-tab" role="tab" aria-selected="false" data-target="warmup-table"
+                id="rtab-warmup">Warm-up Ramp</button>
+              <button type="button" class="results-tab" role="tab" aria-selected="false" data-target="comp-attempts"
+                id="rtab-comp">Competition</button>
             </div>
           </div>
 
           <!-- TRAINING PERCENTAGE TABLE -->
-          <div class="training-table" id="training-table" role="tabpanel" aria-labelledby="rtab-zones" tabindex="0" hidden>
+          <div class="training-table" id="training-table" role="tabpanel" aria-labelledby="rtab-zones" tabindex="0"
+            hidden>
             <p class="training-table__desc">
               Target weights based on your estimated 1RM. Use these to program
               your working sets across rep ranges.
@@ -334,7 +316,8 @@
           </div>
 
           <!-- PROGRAM PRESETS TABLE -->
-          <div class="program-presets" id="program-presets" role="tabpanel" aria-labelledby="rtab-programs" tabindex="0" hidden>
+          <div class="program-presets" id="program-presets" role="tabpanel" aria-labelledby="rtab-programs" tabindex="0"
+            hidden>
             <p class="training-table__desc">
               Working weights for common percentage-based programs, calculated from your estimated 1RM.
             </p>
@@ -357,7 +340,8 @@
           </div>
 
           <!-- WARM-UP RAMP TABLE -->
-          <div class="training-table" id="warmup-table" role="tabpanel" aria-labelledby="rtab-warmup" tabindex="0" hidden>
+          <div class="training-table" id="warmup-table" role="tabpanel" aria-labelledby="rtab-warmup" tabindex="0"
+            hidden>
             <p class="training-table__desc">
               Suggested warm-up sets based on your estimated 1RM. Percentages are approximate
               starting points — adjust by feel.
@@ -680,4 +664,5 @@
   <script src="js/content.js"></script>
 
 </body>
+
 </html>
